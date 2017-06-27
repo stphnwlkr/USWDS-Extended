@@ -1,0 +1,248 @@
+/* US Web Design Colors */
+
+
+.usa-primary {
+	background-color: $color-primary !important;
+}
+.usa-primary-darker {
+	background-color: $color-primary-darker  !important;
+}
+.usa-primary-darkest {
+	background-color: $color-primary-darkest  !important;
+}
+.usa-primary-alt {
+	background-color: $color-primary-alt !important;
+}
+.usa-primary-alt-darkest {
+	background-color: $color-primary-alt-darkest  !important;
+}
+.usa-primary-alt-dark {
+	background-color: $color-primary-alt-dark  !important;
+}
+.usa-primary-alt-light {
+	background-color: $color-primary-alt-light !important;
+}
+.usa-primary-alt-lightest {
+	background-color: $color-primary-alt-lightest  !important;
+}
+.usa-secondary {
+	background-color: $color-secondary !important;
+}
+.usa-secondary-darkest {
+	background-color:$color-secondary-darkest  !important;
+}
+.usa-secondary-dark {
+	background-color: $color-secondary-dark  !important;
+}
+.usa-secondary-light {
+	background-color: $color-secondary-light  !important;
+}
+.usa-secondary-lightest {
+	background-color: $color-secondary-lightest  !important;
+}
+.usa-white {
+	background-color:$color-white  !important;
+}
+.usa-base {
+	background-color: $color-base  !important;
+}
+.usa-black {
+	background-color: $color-black !important;
+}
+.usa-gray-dark {
+	background-color: $color-gray-dark !important;
+}
+.usa-gray {
+	background-color: $color-gray  !important;
+}
+.usa-gray-medium {
+	background-color: $color-gray-medium !important;
+}
+.usa-gray-light {
+	background-color: $color-gray-light !important;
+}
+.usa-gray-lighter {
+	background-color: $color-gray-lighter  !important;
+}
+.usa-gray-lightest {
+	background-color: $color-gray-lightest !important;
+}
+.usa-gray-warm-dark {
+	background-color: $color-gray-warm-dark !important;
+}
+.usa-gray-warm-light {
+	background-color: $color-gray-warm-light !important;
+}
+.usa-gray-cool-light {
+	background-color: $color-gray-cool-light  !important;
+}
+.usa-gold {
+	background-color: $color-gold  !important;
+}
+.usa-gold-light {
+	background-color: $color-gold-light  !important;
+}
+.usa-gold-lighter {
+	background-color: $color-gold-lighter !important;
+}
+.usa-gold-lightest {
+	background-color: $color-gold-lightest !important;
+}
+.usa-green {
+	background-color: $color-green  !important;
+}
+.usa-green-light {
+	background-color: $color-green-light  !important;
+}
+.usa-green-lighter {
+	background-color: $color-green-lighter  !important;
+}
+.usa-green-lightest {
+	background-color: $color-green-lightest  !important;
+}
+.usa-cool-blue {
+	background-color: $color-primary-darker  !important;
+}
+.usa-cool-blue-light {
+	background-color: color-cool-blue-light  !important;
+}
+.usa-cool-blue-lighter {
+	background-color: $color-cool-blue-lighter  !important;
+}
+.usa-cool-blue-lightest {
+	background-color: $color-gray-cool-light  !important;
+}
+.usa-focus {
+	background-color: $color-focus  !important;
+}
+.usa-visited {
+	background-color: $color-visited!important;
+}
+.usa-shadow {
+	background-color:$color-shadow  !important;
+}
+/* USA Text */ 
+
+.usa-text-primary {
+	color: $color-primary;
+}
+.usa-text-primary-darker {
+	color: $color-primary-darker ;
+}
+.usa-text-primary-darkest {
+	color: $color-primary-darkest ;
+}
+.usa-text-primary-alt {
+	color: $color-primary-alt;
+}
+.usa-text-primary-alt-darkest {
+	color: $color-primary-alt-darkest ;
+}
+.usa-text-primary-alt-dark {
+	color: $color-primary-alt-dark ;
+}
+.usa-text-primary-alt-light {
+	color: $color-primary-alt-light;
+}
+.usa-text-primary-alt-lightest {
+	color: $color-primary-alt-lightest ;
+}
+.usa-text-secondary {
+	color: $color-secondary;
+}
+.usa-text-secondary-darkest {
+	color:$color-secondary-darkest ;
+}
+.usa-text-secondary-dark {
+	color: $color-secondary-dark ;
+}
+.usa-text-secondary-light {
+	color: $color-secondary-light ;
+}
+.usa-text-secondary-lightest {
+	color: $color-secondary-lightest ;
+}
+.usa-text-white, a.usa-text-white {
+	color:$color-white ;
+}
+
+.usa-text-base {
+	color: $color-base ;
+}
+.usa-text-black {
+	color: $color-black;
+}
+.usa-text-gray-dark {
+	color: $color-gray-dark;
+}
+.usa-text-gray {
+	color: $color-gray ;
+}
+.usa-text-gray-medium {
+	color: $color-gray-medium;
+}
+.usa-text-gray-light {
+	color: $color-gray-light;
+}
+.usa-text-gray-lighter, a.usa-text-white:hover, a.usa-text-white:focus  {
+	color: $color-gray-lighter !important;
+}
+.usa-text-gray-lightest {
+	color: $color-gray-lightest;
+}
+.usa-text-gray-warm-dark {
+	color: $color-gray-warm-dark;
+}
+.usa-text-gray-warm-light {
+	color: $color-gray-warm-light;
+}
+.usa-text-gray-cool-light {
+	color: $color-gray-cool-light ;
+}
+.usa-text-gold {
+	color: $color-gold ;
+}
+.usa-text-gold-light {
+	color: $color-gold-light ;
+}
+.usa-text-gold-lighter {
+	color: $color-gold-lighter;
+}
+.usa-text-gold-lightest {
+	color: $color-gold-lightest ;
+}
+.usa-text-green {
+	color: $color-green ;
+}
+.usa-text-green-light {
+	color: $color-green-light ;
+}
+.usa-text-green-lighter {
+	color: $color-green-lighter ;
+}
+.usa-text-green-lightest {
+	color: $color-green-lightest ;
+}
+.usa-text-cool-blue {
+	color: $color-primary-darker ;
+}
+.usa-text-cool-blue-light {
+	color: color-cool-blue-light ;
+}
+.usa-text-cool-blue-lighter {
+	color: $color-cool-blue-lighter ;
+}
+.usa-text-cool-blue-lightest {
+	color: $color-gray-cool-light ;
+}
+.usa-text-focus {
+	color: $color-focus ;
+}
+.usa-text-visited {
+	color: $color-visited;
+}
+.usa-text-shadow {
+	color:$color-shadow ;
+}
+
+
