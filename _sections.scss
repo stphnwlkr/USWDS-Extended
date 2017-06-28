@@ -1,0 +1,71 @@
+/*Sections*/
+
+.usa-section-dark h1, .usa-section-dark h2, .usa-section-dark h3, .usa-section-dark h4, .usa-section-dark h5, .usa-section-dark h6 {
+    color: #d6d7d9;
+}
+
+.usa-section-lighter {
+	background-color:  rgba($color-gray-lightest,0.35);
+	color:  $color-base;
+}
+
+.usa-section-primary-darker {
+	background-color:  $color-primary-darker;
+	color:  $color-white;
+}
+
+.usa-section-primary-alt-darkest {
+	background-color:  $color-primary-alt-darkest;
+	color:  $color-white;
+}
+.usa-section-primary-alt-darker {
+	background-color:  $color-primary-alt-dark;
+	color:  $color-white;
+}
+
+.usa-section-secondary-darkest {
+	background-color:  $color-secondary-darkest;
+	color: $color-white;
+}
+
+.usa-section-cool-blue {
+	background-color:  $color-cool-blue;
+	color: $color-white;
+}
+
+.usa-section-base{
+	background-color:  $color-base;
+	color:  $color-white;
+}
+
+.usa-section-black{
+	background-color: #101010;
+	color:  $color-white;
+}
+
+.usa-section-green {
+	background-color:  $color-green;
+	color: $color-white;
+}
+
+.usa-section-gray {
+	background-color:  $color-gray-dark;
+	color: $color-white;
+}
+.usa-section-gray-cool-light {
+	background-color:  $color-gray-cool-light;
+	color: $color-base;
+}
+
+
+.usa-section-dark .usa-footer-return-to-top a, .usa-section-base .usa-footer-return-to-top a , .usa-section-black .usa-footer-return-to-top a  {
+    color: $color-white;
+	
+	&:hover {color: $color-gold-light;
+		
+	}
+	&:visited {color: $color-gold-lightest;}
+}
+
+
+
