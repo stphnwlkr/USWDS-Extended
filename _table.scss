@@ -1,0 +1,119 @@
+/* CSS Document */
+
+table {
+
+  th,
+  td {
+
+    border: 1px solid $color-gray-lightest;
+  }
+}
+
+.usa-table-striped > tbody > tr:nth-child(even) > td{
+
+    background-color: rgba($color-gray-lightest,.5);
+
+}
+
+.usa-table-compressed {
+	thead > tr > th {
+		padding: .8rem;
+	}
+	
+	tbody > tr > td {
+		
+		padding: .5rem;
+	}
+  }
+
+
+  .usa-table-primary thead {
+    th,
+    td {
+      background-color: $color-primary;
+		color: $color-white
+    }
+  }
+.usa-table-primary-darker thead {
+    th,
+    td {
+      background-color: $color-primary-darker;
+		color: $color-white
+    }
+  }
+ .usa-table-primary-darkest thead {
+    th,
+    td {
+      background-color: $color-primary-darkest;
+		color: $color-white
+    }
+  }
+
+ .usa-table-primary-alt thead {
+    th,
+    td {
+      background-color: $color-primary;
+		color: $color-white
+    }
+  }
+
+ .usa-table-primary-alt-darkest thead {
+    th,
+    td {
+      background-color: $color-primary-darkest;
+		color: $color-white
+    }
+  }
+
+ .usa-table-secondary thead {
+    th,
+    td {
+      background-color: $color-secondary;
+		color: $color-white
+    }
+  }
+ .usa-table-secondary-darkest thead {
+    th,
+    td {
+      background-color: $color-secondary-darkest;
+		color: $color-white
+    }
+  }
+ .usa-table-green thead {
+    th,
+    td {
+      background-color: $color-green;
+		color: $color-white
+    }
+  }
+
+ .usa-table-cool-blue thead {
+    th,
+    td {
+      background-color: $color-cool-blue;
+		color: $color-white
+    }
+  }
+
+ .usa-table-base thead {
+    th,
+    td {
+      background-color: $color-base;
+		color: $color-white
+    }
+  }
+
+ .usa-table-gray-dark thead {
+    th,
+    td {
+      background-color: $color-gray-dark;
+		color: $color-white
+    }
+  }
+ .usa-table-gray-warm-dark thead {
+    th,
+    td {
+      background-color: $color-gray-warm-dark;
+		color: $color-white
+    }
+  }
