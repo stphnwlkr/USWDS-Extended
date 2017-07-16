@@ -55,8 +55,9 @@
 
 .usa-card_divider {
     padding: 1.5rem;
-    background: rgba($color-gray-lightest,.5);
+    background: $color-white;
 }
+
 
 .usa-card_divider> :last-child {
     margin-bottom: 0;
@@ -119,6 +120,11 @@
 
 
 /* Dividers */
+
+.usa-card_divider--lighter {
+    padding: 1.5rem;
+    background: rgba($color-gray-lightest,.5);
+}
 
 .usa-card_divider--primary{
     background: $color-primary;
