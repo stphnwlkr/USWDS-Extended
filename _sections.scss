@@ -9,48 +9,331 @@
 	color:  $color-base;
 }
 
+.usa-section-primary-darkest {
+	background-color:  $color-primary-darkest;
+	color:  $color-white;
+		a{
+		color:  $color-white;
+	}
+	a:hover {
+		color:  $color-gray-lightest;
+	}
+}
+
+
 .usa-section-primary-darker {
 	background-color:  $color-primary-darker;
 	color:  $color-white;
+		a{
+		color:  $color-white;
+	}
+	a:hover {
+		color:  $color-gray-lightest;
+	}
+
+ul.breadcrumb {
+    padding: 0;
+    list-style: none;
+}
+
+
+ul.breadcrumb li {
+    display: inline;
+}
+
+ul.breadcrumb li.active {
+    font-weight: 700;
+	color: $color-white;
+} 
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: $color-white;
+	font-weight: 500;
+    content: "/\00a0";
+}
+
+
+ul.breadcrumb li a {
+    color: $color-white;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: $color-gold-lighter;
+    text-decoration: underline;
+}
 }
 
 .usa-section-primary-alt-darkest {
 	background-color:  $color-primary-alt-darkest;
 	color:  $color-white;
+		a{
+		color:  $color-white;
+	}
+	a:hover {
+		color:  $color-gray-lightest;
+	}
 }
 .usa-section-primary-alt-darker {
 	background-color:  $color-primary-alt-dark;
-	color:  $color-white;
+	color:  $color-base;
+	a{
+		color:  $color-base;
+	}
+	a:hover {
+		color:  $color-gray-lightest;
+	}
+}
+
+.usa-section-primary-alt {
+	background-color:  $color-primary-alt;
+	color:  $color-base;
+	a{
+		color:  $color-base;
+	}
+	a:hover {
+		color:  $color-gray-lightest;
+	} 
 }
 
 .usa-section-secondary-darkest {
 	background-color:  $color-secondary-darkest;
 	color: $color-white;
+		a{
+		color:  $color-white;
+	}
+	a:hover {
+		color:  $color-gray-lightest;
+	}
+
+ul.breadcrumb {
+    padding: 0;
+    list-style: none;
+}
+
+
+ul.breadcrumb li {
+    display: inline;
+}
+
+ul.breadcrumb li.active {
+    font-weight: 700;
+	color: $color-white;
+} 
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: $color-white;
+	font-weight: 500;
+    content: "/\00a0";
+}
+
+
+ul.breadcrumb li a {
+    color: $color-white;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: $color-gold-lighter;
+    text-decoration: underline;
+}
+	
 }
 
 .usa-section-cool-blue {
 	background-color:  $color-cool-blue;
 	color: $color-white;
+		a{
+		color:  $color-white;
+	}
+	a:hover {
+		color:  $color-gray-lightest;
+	}
 }
 
 .usa-section-base{
 	background-color:  $color-base;
 	color:  $color-white;
+	
+	a{
+		color:  $color-white;
+	}
+	a:hover {
+		color:  $color-gray-lightest;
+	}
+
+ul.breadcrumb {
+    padding: 0;
+    list-style: none;
+}
+
+
+ul.breadcrumb li {
+    display: inline;
+}
+
+ul.breadcrumb li.active {
+    font-weight: 700;
+	color: $color-white;
+} 
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: $color-white;
+	font-weight: 500;
+    content: "/\00a0";
+}
+
+
+ul.breadcrumb li a {
+    color: $color-white;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: $color-gold-lighter;
+    text-decoration: underline;
+}
 }
 
 .usa-section-black{
 	background-color: #101010;
 	color:  $color-white;
+		a{
+		color:  $color-white;
+	}
+	a:hover {
+		color:  $color-gray-lightest;
+	}
+	
+
+ul.breadcrumb {
+    padding: 0;
+    list-style: none;
+}
+
+
+ul.breadcrumb li {
+    display: inline;
+}
+
+ul.breadcrumb li.active {
+    font-weight: 700;
+	color: $color-white;
+} 
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: $color-white;
+	font-weight: 500;
+    content: "/\00a0";
+}
+
+
+ul.breadcrumb li a {
+    color: $color-white;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: $color-gold-lighter;
+    text-decoration: underline;
+}
 }
 
 .usa-section-green {
 	background-color:  $color-green;
 	color: $color-white;
+	a{
+		color:  $color-white;
+	}
+	a:hover {
+		color:  $color-gray-lightest;
+	}
+
+ul.breadcrumb {
+    padding: 0;
+    list-style: none;
+}
+
+
+ul.breadcrumb li {
+    display: inline;
+}
+
+ul.breadcrumb li.active {
+    font-weight: 700;
+	color: $color-white;
+} 
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: $color-white;
+	font-weight: 500;
+    content: "/\00a0";
+}
+
+
+ul.breadcrumb li a {
+    color: $color-white;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: $color-gray-lightest;
+    text-decoration: underline;
+}
 }
 
 .usa-section-gray {
 	background-color:  $color-gray-dark;
 	color: $color-white;
+	a{
+		color:  $color-white;
+	}
+	a:hover {
+		color:  $color-gray-lightest;
+	}
+
+ul.breadcrumb {
+    padding: 0;
+    list-style: none;
+}
+
+ul.breadcrumb li {
+    display: inline;
+}
+
+ul.breadcrumb li.active {
+    font-weight: 700;
+	color: $color-white;
+} 
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: $color-white;
+	font-weight: 500;
+    content: "/\00a0";
+}
+
+
+ul.breadcrumb li a {
+    color: $color-white;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: $color-gold-lighter;
+    text-decoration: underline;
+}
 }
 .usa-section-gray-cool-light {
 	background-color:  $color-gray-cool-light;
@@ -58,7 +341,7 @@
 }
 
 
-.usa-section-dark .usa-footer-return-to-top a, .usa-section-base .usa-footer-return-to-top a , .usa-section-black .usa-footer-return-to-top a  {
+.usa-section-dark .usa-footer-return-to-top a,  .usa-section-base .usa-footer-return-to-top a , .usa-section-black .usa-footer-return-to-top a  {
     color: $color-white;
 	
 	&:hover {color: $color-gold-light;
