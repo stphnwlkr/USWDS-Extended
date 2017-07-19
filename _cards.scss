@@ -167,13 +167,15 @@
 	}
 }
 
-.usa-card--rounded {
-		border-radius: $border-radius;
+.usa-card--hover {
+	transition: all 0.2s ease-in-out;
+	border:none;
 }
 
-.usa-card--hover {
-	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-	border:none;
+.usa-card--hover:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.12);
+	transform: scale(1.05);
+
 }
 
 .usa-card--hover:hover {
