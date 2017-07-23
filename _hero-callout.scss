@@ -1,0 +1,77 @@
+/*Callout boxes*/
+.usa-hero-callout {
+	max-width: 40rem;
+	padding: 3rem;
+	color: $color-white;
+}
+
+.usa-hero-callout_right {
+
+    float: right;
+}
+
+.usa-hero-callout h1 {
+	font-size: 2.8rem;
+}
+
+.usa-hero-callout h1 span.subtext {
+	font-size: 1.5rem;
+	display: block;
+	font-weight: $font-normal;
+}
+
+.usa-hero-callout_base {
+	background-color: $color-base;
+	background-color: rgba($color-base,0.95);
+	color: $color-white;
+	border-radius: $border-radius;
+	box-shadow: $box-shadow;
+}
+
+.usa-hero-callout_primary {
+    background-color: $color-primary-darker;
+	background-color: rgba($color-primary-darker,.9);
+	color: $color-white;
+	border-radius: $border-radius;
+	box-shadow: $box-shadow;
+    
+}
+.usa-hero-callout_secondary {
+    background-color: $color-secondary-darkest;
+	background-color: rgba($color-secondary-darkest,.9);
+   	border-radius: $border-radius;
+	box-shadow: $box-shadow;
+}
+
+.usa-hero-callout_gray {
+    background-color: $color-gray-dark;
+   
+}
+
+.usa-hero-callout_primary-alt {
+    background-color: $color-primary-alt-darkest;
+   
+}
+
+.usa-hero-callout_green {
+    background-color: $color-green;
+   
+}
+
+.usa-hero-callout_cool {
+    background-color: $color-gray-cool-light;
+	color: $color-base;
+	background-color: rgba($color-gray-cool-light,.8);
+   	border-radius: $border-radius;
+	box-shadow: $box-shadow;
+   
+}
+
+.usa-hero .usa-button { color:$color-white; }
+
+.usa-section-dark .usa-hero-link { color: $color-primary-alt; }
+
+.usa-button.usa-button-big, .usa-button-primary.usa-button-big, .usa-button.usa-button-big:visited, .usa-button-primary.usa-button-big:visited, button.usa-button-big, .usa-button-big[type="button"], .usa-button-big[type="submit"], .usa-button-big[type="reset"], .usa-button-big[type="image"] {
+    font-size: 1.9rem;
+    padding: 1.5rem 3rem;
+}
