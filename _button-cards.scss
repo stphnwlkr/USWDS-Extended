@@ -1,3 +1,14 @@
+	ul.usa-unstyled-list.pc-button-card-grid-wide {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+@media screen and (min-width: 1201px) {
+	ul.usa-unstyled-list.pc-button-card-grid-wide {
+	padding-left: 1.9em;
+}
+}
+
 .pc-button-card {
 	background-color: rgba($color-gray-lightest,.8);
 	border-radius:$border-radius;
