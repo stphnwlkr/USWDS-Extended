@@ -4,7 +4,7 @@
     margin-bottom: 2rem;
     overflow: hidden;
     border: none;
-    background:  rgba($color-gray-lightest,.70) ;
+    background:  rgba($color-gray-lightest,.30) ;
     color: $color-base ;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
@@ -108,6 +108,32 @@
 	}
 }
 
+.usa-card--primary-alt {
+	@extend.usa-card;
+    background: $color-primary-alt;
+    color: $color-base;
+	a{
+		color: $color-base;
+	}
+}
+
+.usa-card--primary-alt-dark {
+	@extend.usa-card;
+    background: $color-primary-alt-dark;
+    color: $color-base;
+	a{
+		color: $color-base;
+	}
+}
+
+.usa-card--primary-alt-darkest {
+	@extend.usa-card;
+    background: $color-primary-alt-darkest;
+    color: $color-white;
+	a{
+		color: $color-white;
+	}
+}
 .usa-card--gray-dark {
 	@extend.usa-card;
     background: $color-gray-dark;
@@ -156,6 +182,30 @@
 
 .usa-card_divider--primary-darkest {
     background: $color-primary-darkest;
+    color: $color-white;
+	a {
+		color: $color-white;
+	}
+}
+
+.usa-card_divider--primary-alt {
+    background: $color-primary-alt;
+    color: $color-base;
+	a {
+		color: $color-base;
+	}
+}
+
+.usa-card_divider--primary-alt-dark {
+    background: $color-primary-alt-dark;
+    color: $color-base;
+	a {
+		color: $color-base;
+	}
+}
+
+.usa-card_divider--primary-alt-darkest {
+    background: $color-primary-alt-darkest;
     color: $color-white;
 	a {
 		color: $color-white;
