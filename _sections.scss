@@ -1,34 +1,34 @@
 /*Sections*/
 
 .usa-section-dark h1, .usa-section-dark h2, .usa-section-dark h3, .usa-section-dark h4, .usa-section-dark h5, .usa-section-dark h6 {
-    color: $color-gray-lightest;
+    color: #f1f1f1;
 }
 
 .usa-section-lighter {
 	background-color:  rgba($color-gray-lightest,0.35);
-	color:  $color-base;
+	color:  $color-black-light;
 }
 
-.usa-section-primary-darkest {
-	background-color:  $color-primary-darkest;
+.usa-section-blue-darkest {
+	background-color:  $color-blue-darkest;
 	color:  $color-white;
 		a{
 		color:  $color-white;
 	}
 	a:hover {
-		color:  $color-gray-lightest;
+		color:  $color-gold-lighter
 	}
 }
 
 
-.usa-section-primary-darker {
-	background-color:  $color-primary-darker;
+.usa-section-blue-darker {
+	background-color:  $color-blue-darker;
 	color:  $color-white;
 		a{
 		color:  $color-white;
 	}
 	a:hover {
-		color:  $color-gray-lightest;
+		color:  $color-gold-lightest
 	}
 
 ul.breadcrumb {
@@ -66,8 +66,8 @@ ul.breadcrumb li a:hover {
 }
 }
 
-.usa-section-primary-alt-darkest {
-	background-color:  $color-primary-alt-darkest;
+.usa-section-aqua-darkest {
+	background-color:  $color-aqua-darkest;
 	color:  $color-white;
 		a{
 		color:  $color-white;
@@ -76,30 +76,30 @@ ul.breadcrumb li a:hover {
 		color:  $color-gray-lightest;
 	}
 }
-.usa-section-primary-alt-darker {
-	background-color:  $color-primary-alt-dark;
-	color:  $color-base;
+.usa-section-aqua-darker {
+	background-color:  $color-aqua-dark;
+	color:  $color-black-light;
 	a{
-		color:  $color-base;
+		color:  $color-black-light;
 	}
 	a:hover {
 		color:  $color-gray-lightest;
 	}
 }
 
-.usa-section-primary-alt {
-	background-color:  $color-primary-alt;
-	color:  $color-base;
+.usa-section-aqua {
+	background-color:  $color-aqua;
+	color:  $color-black-light;
 	a{
-		color:  $color-base;
+		color:  $color-black-light;
 	}
 	a:hover {
 		color:  $color-gray-lightest;
 	} 
 }
 
-.usa-section-secondary-darkest {
-	background-color:  $color-secondary-darkest;
+.usa-section-red-darkest {
+	background-color:  $color-red-darkest;
 	color: $color-white;
 		a{
 		color:  $color-white;
@@ -155,15 +155,15 @@ ul.breadcrumb li a:hover {
 	}
 }
 
-.usa-section-base{
-	background-color:  $color-base;
+.usa-section-black-light {
+	background-color:  $color-black-light;
 	color:  $color-white;
 	
 	a{
 		color:  $color-white;
 	}
 	a:hover {
-		color:  $color-gray-lightest;
+		color:  $color-gold-lightest
 	}
 
 ul.breadcrumb {
@@ -208,7 +208,7 @@ ul.breadcrumb li a:hover {
 		color:  $color-white;
 	}
 	a:hover {
-		color:  $color-gray-lightest;
+		color: $color-gold-lightest
 	}
 	
 
@@ -337,7 +337,7 @@ ul.breadcrumb li a:hover {
 }
 .usa-section-gray-cool-light {
 	background-color:  $color-gray-cool-light;
-	color: $color-base;
+	color: $color-black-light;
 }
 
 
@@ -350,5 +350,34 @@ ul.breadcrumb li a:hover {
 	&:visited {color: $color-gold-lightest;}
 }
 
+.pc-threaded-background{
+	background-image: url('/_media/img/backgrounds/pc-thread.png');
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: center center;
+}
+
+.pc-wave2-background{
+	background-image: url('/_media/img/backgrounds/wave2.png');
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: bottom center;
+}
+
+.pc-wave3-background{
+	background-image: url('/_media/img/backgrounds/wave3.png');
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: bottom center;
+
+}
+
+.pc-wave-background{
+	background-image: url('/_media/img/backgrounds/wave.png');
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: bottom center;
+
+}
 
 
