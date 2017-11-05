@@ -1,19 +1,14 @@
-/* Scss Document */
+/* Cards */
 
 .usa-card {
     margin-bottom: 2rem;
     overflow: hidden;
     border: none;
-    background:  rgba($color-gray-lightest,.30) ;
+    background: $color-white ;
     color: $color-base ;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-.usa-card-alt {
-
-    background: $color-white;
-
-}
 
 .usa-card> :last-child {
     margin-bottom: 0;
@@ -60,10 +55,6 @@
 
 .usa-card_divider {
     padding: 1.5rem;
-    background: rgba($color-gray-lightest,.70);
-}
-.usa-card_divider-alt {
-    padding: 1.5rem;
     background: $color-white;
 }
 
@@ -81,59 +72,50 @@
 
 /* Card Bodies */
 
-.usa-card--primary {
+.usa-card--blue {
 	@extend.usa-card;
-    background: $color-primary;
+    background: $color-blue;
     color: $color-white;
 	a{
 		color: $color-white;
 	}
 }
 
-.usa-card--primary-darker {
+.usa-card--blue-darker {
 	@extend.usa-card;
-    background: $color-primary-darker;
+    background: $color-blue-darker;
     color: $color-white;
 	a{
 		color: $color-white;
 	}
 }
 
-.usa-card--primary-darkest {
+.usa-card--blue-darkest {
 	@extend.usa-card;
-    background: $color-primary-darkest;
+    background: $color-blue-darkest;
     color: $color-white;
 	a{
 		color: $color-white;
 	}
 }
 
-.usa-card--primary-alt {
+.usa-card--aqua-dark {
 	@extend.usa-card;
-    background: $color-primary-alt;
-    color: $color-base;
+    background: $color-aqua-dark;
+    color: $color-black;
 	a{
-		color: $color-base;
+		color: $color-white;
 	}
 }
-
-.usa-card--primary-alt-dark {
+.usa-card--aqua-darkest {
 	@extend.usa-card;
-    background: $color-primary-alt-dark;
-    color: $color-base;
-	a{
-		color: $color-base;
-	}
-}
-
-.usa-card--primary-alt-darkest {
-	@extend.usa-card;
-    background: $color-primary-alt-darkest;
+    background: $color-aqua-darkest;
     color: $color-white;
 	a{
 		color: $color-white;
 	}
 }
+
 .usa-card--gray-dark {
 	@extend.usa-card;
     background: $color-gray-dark;
@@ -143,9 +125,9 @@
 	}
 }
 
-.usa-card--secondary-darkest {
+.usa-card--red-darkest {
 	@extend.usa-card;
-    background: $color-secondary-darkest;
+    background: $color-red-darkest;
     color: $color-white;
 	a{
 		color: $color-white;
@@ -161,10 +143,10 @@
 }
 
 
-.usa-card_divider--primary{
-    background: $color-primary;
+.usa-card_divider--blue {
+    background: $color-blue;
     color: $color-white;
-	border:1px solid $color-primary; 
+	border:1px solid $color-blue; 
 	
 	a {
 		color: $color-white;
@@ -172,40 +154,16 @@
 	
 }
 
-.usa-card_divider--primary-darker {
-    background: $color-primary-darker;
+.usa-card_divider--blue-darker {
+    background: $color-blue-darker;
     color: $color-white;
 	a {
 		color: $color-white;
 	}
 }
 
-.usa-card_divider--primary-darkest {
-    background: $color-primary-darkest;
-    color: $color-white;
-	a {
-		color: $color-white;
-	}
-}
-
-.usa-card_divider--primary-alt {
-    background: $color-primary-alt;
-    color: $color-base;
-	a {
-		color: $color-base;
-	}
-}
-
-.usa-card_divider--primary-alt-dark {
-    background: $color-primary-alt-dark;
-    color: $color-base;
-	a {
-		color: $color-base;
-	}
-}
-
-.usa-card_divider--primary-alt-darkest {
-    background: $color-primary-alt-darkest;
+.usa-card_divider--blue-darkest {
+    background: $color-blue-darkest;
     color: $color-white;
 	a {
 		color: $color-white;
@@ -218,16 +176,8 @@
 		color: $color-white;
 	}
 }
-.usa-card_divider--secondary-darkest  {
-    background: $color-secondary-darkest;
-    color: $color-white;
-	a {
-		color: $color-white;
-	}
-}
-
-.usa-card_divider--green  {
-    background: $color-green;
+.usa-card_divider--red-darkest  {
+    background: $color-red-darkest;
     color: $color-white;
 	a {
 		color: $color-white;
@@ -249,10 +199,10 @@
 
 }
 
-.va-box-shadow_low {
+.pc-box-shadow_low {
 	box-shadow: $box-shadow-low;
 }
-.navigation--major .va-cards--2across {
+.navigation--major .pc-cards--2across {
 	display: block
 }
 
@@ -264,30 +214,30 @@ dl {
 	margin-top: 1em;
 	margin-bottom: 1em
 }
-.va-cards, dl {
+.pc-cards, dl {
 	display: block
 }
-.va-cards {
+.pc-cards {
 	margin: 0!important;
 	padding: 0
 }
 
 @media screen and (min-width:600px) {
-.va-cards--2across:after, .va-cards--2across:before, .va-cards--3across:after, .va-cards--3across:before {
+.pc-cards--2across:after, .pc-cards--2across:before, .pc-cards--3across:after, .pc-cards--3across:before {
 	content: " ";
 	display: table
 }
-.va-cards--2across:after, .va-cards--3across:after {
+.pc-cards--2across:after, .pc-cards--3across:after {
 	clear: both
 }
-.va-cards--3across>.va-card {
+.pc-cards--3across>.pc-card {
 	width: 33%
 }
-.va-cards--2across>.va-card {
+.pc-cards--2across>.pc-card {
 	width: 50%
 }
 }
-.va-card,.oit-card {
+.pc-card{
 	border-color: transparent;
 	border-style: solid;
 	border-width: 0 .625rem 1.25rem .67rem;
@@ -297,16 +247,16 @@ dl {
 }
 
 @media screen and (min-width:600px) {
-.va-card,.oit-card {
+.pc-card {
 	float: left
 }
 }
-.edit-checkbox .va-card label, .va-card .edit-checkbox label, .va-card a {
+.edit-checkbox .pc-card label, .pc-card .edit-checkbox label, .pc-card a {
 	color: inherit
 }
-.edit-checkbox .va-card label, .va-card-body, .va-card .edit-checkbox label, .va-card a {
+.edit-checkbox .pc-card label, .pc-card-body, .pc-card .edit-checkbox label, .pc-card a {
 	transition: all .3s ease-in-out;
-	background: $color-primary-darker;
+	background: $color-blue-darker;
 	border-radius: .2em;
 	color:$color-white !important;
 	display: block;
@@ -317,29 +267,29 @@ dl {
 	text-decoration: none;
 	
 }
-.edit-checkbox .va-card label:active, .edit-checkbox .va-card label:focus, .edit-checkbox .va-card label:hover, .va-card-body:active, .va-card-body:focus, .va-card-body:hover, .va-card .edit-checkbox label:active, .va-card .edit-checkbox label:focus, .va-card .edit-checkbox label:hover, .va-card a:active, .va-card a:focus, .va-card a:hover {
-	background: $color-primary;
+.edit-checkbox .pc-card label:active, .edit-checkbox .pc-card label:focus, .edit-checkbox .pc-card label:hover, .pc-card-body:active, .pc-card-body:focus, .pc-card-body:hover, .pc-card .edit-checkbox label:active, .pc-card .edit-checkbox label:focus, .pc-card .edit-checkbox label:hover, .pc-card a:active, .pc-card a:focus, .pc-card a:hover {
+	background: $color-blue;
 	color: inherit;
 	cursor: pointer;
 	text-decoration: inherit;
 	box-shadow: 0 0 5px rgba(0,0,0,.35)
 }
-.edit-checkbox .va-card label+ol, .edit-checkbox .va-card label+ul, .va-card-body+ol, .va-card-body+ul, .va-card .edit-checkbox label+ol, .va-card .edit-checkbox label+ul, .va-card a+ol, .va-card a+ul {
+.edit-checkbox .pc-card label+ol, .edit-checkbox .pc-card label+ul, .pc-card-body+ol, .pc-card-body+ul, .pc-card .edit-checkbox label+ol, .pc-card .edit-checkbox label+ul, .pc-card a+ol, .pc-card a+ul {
 	margin: 1em 1.2em 0 2em!important
 }
-.va-ellipsis{
+.pc-ellipsis{
  white-space: nowrap;
   overflow: hidden;
 	text-overflow: ellipsis;
 }
 
 @media screen and (min-width:600px) {
-.edit-checkbox .va-card label, .va-card-body, .va-card .edit-checkbox label, .va-card a {
+.edit-checkbox .pc-card label, .pc-card-body, .pc-card .edit-checkbox label, .pc-card a {
 	padding: 1.25em
 }
 }
 @media screen and (min-width:300px) {
-.va-card-title {
+.pc-card-title {
 	color: $color-white !important;
 	font: 700 1.35em/1.3em Source Sans Pro, sans-serif!important;
 	margin: 0!important;
@@ -347,7 +297,7 @@ dl {
 }
 }
 @media screen and (min-width:480px) {
-.va-card-title {
+.pc-card-title {
 	color: $color-white !important;
 	font: 700 1.1em/1.3em Source Sans Pro, sans-serif!important;
 	margin: 0!important;
@@ -355,14 +305,14 @@ dl {
 }
 }
 @media screen and (min-width:951px) {
-.va-card-title {
+.pc-card-title {
 	color: $color-white !important;
 	font: 700 1.35em/1.3em Source Sans Pro, sans-serif!important;
 	margin: 0!important;
 	padding: 0 0 .25em!important; 
 	}}
 
-.edit-checkbox .va-card-title label, .va-card-title .edit-checkbox label, .va-card-title a {
+.edit-checkbox .pc-card-title label, .pc-card-title .edit-checkbox label, .pc-card-title a {
 	text-decoration: none;
 	background-color: transparent
 }
