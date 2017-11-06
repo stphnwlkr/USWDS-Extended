@@ -1,0 +1,52 @@
+/* CSS Document */
+
+.usa-accordion-button-blue-darker {
+    background-color: $color-blue-darker;
+    color: $color-white;
+	background-image: url(../img/uswds/plus_white.png) !important;
+	background-image: url(../img/uswds/plus_white.svg) !important;
+}
+
+.usa-accordion-button-blue-darker[aria-expanded="true"] {
+	background-image: url(../img/uswds/minus_white.png) !important;
+  	background-image: url(../img/uswds/minus_white.svg) !important;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+}
+
+.usa-accordion-button-blue-darker:hover {
+    background-color: $color-blue-darkest;
+	color: $color-white;
+}
+
+.usa-accordion-button-red-darkest {
+    background-color: $color-red-darkest;
+    color: $color-white;
+	background-image: url(../img/uswds/plus_white.png) !important;
+	background-image: url(../img/uswds/plus_white.svg) !important;
+}
+
+.usa-accordion-button-red-darkest[aria-expanded="true"] {
+	background-image: url(../img/uswds/minus_white.png) !important;
+  	background-image: url(../img/uswds/minus_white.svg) !important;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+}
+
+.usa-accordion-button-red-darkest:hover {
+    background-color: $color-red-dark;
+	color: $color-white;
+}
+
+
+.usa-accordion-button-aqua {
+    background-color: $color-aqua;
+}
+
+.usa-accordion-button-aqua-dark {
+    background-color: $color-aqua-dark;
+}
+
+.usa-accordion-button-aqua-light {
+    background-color: $color-aqua-light;
+}
