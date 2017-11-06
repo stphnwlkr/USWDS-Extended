@@ -8,6 +8,8 @@
 }
 
 .usa-accordion-button-blue-darker[aria-expanded="true"] {
+	background-color: $color-blue-darkest;
+	color: $color-white;
 	background-image: url(../img/uswds/minus_white.png) !important;
   	background-image: url(../img/uswds/minus_white.svg) !important;
     background-repeat: no-repeat;
@@ -27,6 +29,8 @@
 }
 
 .usa-accordion-button-red-darkest[aria-expanded="true"] {
+	background-color: $color-red-dark;
+	color: $color-white;
 	background-image: url(../img/uswds/minus_white.png) !important;
   	background-image: url(../img/uswds/minus_white.svg) !important;
     background-repeat: no-repeat;
