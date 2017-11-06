@@ -21,6 +21,71 @@
 	color: $color-white;
 }
 
+.usa-accordion-button-blue-darkest {
+    background-color: $color-blue-darkest;
+    color: $color-white;
+	background-image: url(../img/uswds/plus_white.png) !important;
+	background-image: url(../img/uswds/plus_white.svg) !important;
+}
+
+.usa-accordion-button-blue-darker[aria-expanded="true"] {
+	background-color: $color-blue-darker;
+	color: $color-white;
+	background-image: url(../img/uswds/minus_white.png) !important;
+  	background-image: url(../img/uswds/minus_white.svg) !important;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+}
+
+.usa-accordion-button-blue-darkest:hover {
+    background-color: $color-blue-darker;
+	color: $color-white;
+}
+
+.usa-accordion-button-blue {
+    background-color: $color-blue;
+    color: $color-white;
+	background-image: url(../img/uswds/plus_white.png) !important;
+	background-image: url(../img/uswds/plus_white.svg) !important;
+}
+
+.usa-accordion-button-blue[aria-expanded="true"] {
+	background-color: $color-blue-darker;
+	color: $color-white;
+	background-image: url(../img/uswds/minus_white.png) !important;
+  	background-image: url(../img/uswds/minus_white.svg) !important;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+}
+
+.usa-accordion-button-blue:hover {
+    background-color: $color-blue-darker;
+	color: $color-white;
+}
+
+.usa-accordion-button-green {
+    background-color: $color-green;
+    color: $color-white;
+	background-image: url(../img/uswds/plus_white.png) !important;
+	background-image: url(../img/uswds/plus_white.svg) !important;
+}
+
+.usa-accordion-button-green[aria-expanded="true"] {
+	background-color: $color-green-light;
+	color: $color-base;
+	background-image: url(../img/uswds/minus.png) !important;
+  	background-image: url(../img/uswds/minus.svg) !important;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+}
+
+.usa-accordion-button-green:hover {
+    background-color: $color-green-light;
+	color: $color-base;
+	background-image: url(../img/uswds/plus.png) !important;
+	background-image: url(../img/uswds/plus.svg) !important;
+}
+
 .usa-accordion-button-red-darkest {
     background-color: $color-red-darkest;
     color: $color-white;
