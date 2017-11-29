@@ -1,14 +1,17 @@
-/* Accordion */
+/* CSS Document */
 
-.usa-accordion-button-blue-darker:focus,.usa-accordion-button-green:focus,.usa-accordion-button-blue-darkest:focus,.usa-accordion-button-red-darkest:focus,.usa-accordion-button-blue:focus{
-outline: .1rem dashed $color-base;
-}
 .usa-accordion-button-blue-darker {
     background-color: $color-blue-darker;
     color: $color-white;
 	background-image: url(../img/uswds/plus_white.png) !important;
+
 }
 
+.usa-accordion-button-blue-darker:hover {
+    background-color: $color-blue-darkest;
+	color: $color-white;
+	background-image: url(../img/uswds/plus_white.png) !important;
+}
 .usa-accordion-button-blue-darker[aria-expanded="true"] {
 	background-color: $color-blue-darkest;
 	color: $color-white;
@@ -17,22 +20,41 @@ outline: .1rem dashed $color-base;
     background-size: 1.5rem;
 }
 
-.usa-accordion-button-blue-darker:hover {
-    background-color: $color-blue-darkest;
+.usa-accordion-button-white {
+	background-color: $color-white;
+    color: $color-blue-darker;
+	background-image: url(../img/uswds/plus.png) !important;
+	background-image: url(../img/uswds/plus.svg) !important;
+	border: 1px solid #f7f7f7;
+	
+}
+.usa-accordion-button-white:hover {
+    background-color: $color-gray-dark;
 	color: $color-white;
+	background-image: url(../img/uswds/plus_white.png) !important;
+	border: 1px solid $color-gray-dark;
+}
+.usa-accordion-button-white[aria-expanded="true"] {
+	background-color: $color-gray-dark;
+	color: $color-white;
+	background-image: url(../img/uswds/minus_white.png) !important;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+	border: 1px solid $color-gray-dark;
 }
 
 .usa-accordion-button-blue-darkest {
     background-color: $color-blue-darkest;
     color: $color-white;
 	background-image: url(../img/uswds/plus_white.png) !important;
-	}
+
+}
 
 .usa-accordion-button-blue-darkest[aria-expanded="true"] {
 	background-color: $color-blue-darker;
 	color: $color-white;
 	background-image: url(../img/uswds/minus_white.png) !important;
-      background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: 1.5rem;
 }
 
@@ -45,7 +67,6 @@ outline: .1rem dashed $color-base;
     background-color: $color-blue;
     color: $color-white;
 	background-image: url(../img/uswds/plus_white.png) !important;
-
 }
 
 .usa-accordion-button-blue[aria-expanded="true"] {
@@ -71,6 +92,7 @@ outline: .1rem dashed $color-base;
 	background-color: $color-green-light;
 	color: $color-base;
 	background-image: url(../img/uswds/minus.png) !important;
+  	background-image: url(../img/uswds/minus.svg) !important;
     background-repeat: no-repeat;
     background-size: 1.5rem;
 }
@@ -86,13 +108,14 @@ outline: .1rem dashed $color-base;
     background-color: $color-red-darkest;
     color: $color-white;
 	background-image: url(../img/uswds/plus_white.png) !important;
+
 }
 
 .usa-accordion-button-red-darkest[aria-expanded="true"] {
 	background-color: $color-red-dark;
 	color: $color-white;
 	background-image: url(../img/uswds/minus_white.png) !important;
-      background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: 1.5rem;
 }
 
