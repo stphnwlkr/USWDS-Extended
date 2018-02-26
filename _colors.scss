@@ -25,6 +25,9 @@
 .usa-fill-aqua-lightest {
 	background-color: $color-aqua-lightest  !important;
 }
+.usa-fill-aqua-ultralight {
+	background-color: rgba($color-aqua-lightest,.3)  !important;
+}
 .usa-fill-red {
 	background-color: $color-red !important;
 }
@@ -39,6 +42,9 @@
 }
 .usa-fill-red-lightest {
 	background-color: $color-red-lightest  !important;
+}
+.usa-fill-red-ultralight {
+	background-color: rgba($color-red-lightest,.3)  !important;
 }
 .usa-fill-white {
 	background-color:$color-white  !important;
@@ -67,6 +73,9 @@
 .usa-fill-gray-lightest {
 	background-color: $color-gray-lightest !important;
 }
+.usa-fill-gray-ultralight {
+	background-color: rgba($color-gray-lightest,.3) !important;
+}
 .usa-fill-gray-warm-dark {
 	background-color: $color-gray-warm-dark !important;
 }
@@ -88,6 +97,9 @@
 .usa-fill-gold-lightest {
 	background-color: $color-gold-lightest !important;
 }
+.usa-fill-gold-ultralight {
+	background-color: rgba($color-gold-lightest,.3) !important;
+}
 .usa-fill-green {
 	background-color: $color-green  !important;
 }
@@ -100,17 +112,23 @@
 .usa-fill-green-lightest {
 	background-color: $color-green-lightest  !important;
 }
+.usa-fill-green-ultralight {
+	background-color: rgba($color-green-lightest,.3) !important;
+}
 .usa-fill-cool-blue {
 	background-color: $color-blue-darker  !important;
 }
 .usa-fill-cool-blue-light {
-	background-color: color-cool-blue-light  !important;
+	background-color: $color-cool-blue-light  !important;
 }
 .usa-fill-cool-blue-lighter {
 	background-color: $color-cool-blue-lighter  !important;
 }
 .usa-fill-cool-blue-lightest {
 	background-color: $color-gray-cool-light  !important;
+}
+.usa-fill-cool-blue-ultralight {
+	background-color: rgba($color-gray-cool-light,.3)  !important;
 }
 .usa-fill-purple {
 	background-color: $color-purple!important;
@@ -222,7 +240,7 @@
 	color: $color-blue-darker ;
 }
 .usa-text-cool-blue-light {
-	color: color-cool-blue-light ;
+	color: $color-cool-blue-light ;
 }
 .usa-text-cool-blue-lighter {
 	color: $color-cool-blue-lighter ;
